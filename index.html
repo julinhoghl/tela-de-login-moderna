@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="tela-login">
+      <figure class="tela-image"></figure>
+
+      <div class="formulario-login">
+        <h1>LOGIN</h1>
+        <form class="formulario">
+          <h4>Usuario:</h4>
+          <input class="caixa-input" type="email" placeholder="E-mail" />
+          <h4>Senha:</h4>
+          <div class="campo-senha">
+            <input
+              class="caixa-input"
+              type="password"
+              placeholder="Senha"
+              id="input-senha"
+            />
+            <i class="fa-regular fa-eye" id="icone-olho"></i>
+          </div>
+          <label class="lembrar-me">
+            <input type="checkbox" /> <span>Lembrar-me</span>
+            <a href="#">Esqueceu a senha?</a>
+          </label>
+          <button class="botao-entrar" type="submit">Entrar</button>
+          <div class="criar-conta">
+            <p>Não tem uma conta?</p>
+            <a href=""> Inscrever-se</a>
+          </div>
+
+          <div class="login-social">
+            <p class="titulo-social">Logar Com</p>
+            <div class="icones-social">
+              <a href="#" class="btn-social fb"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="btn-social google"
+                ><i class="fa-brands fa-google"></i
+              ></a>
+              <a href="#" class="btn-social apple"
+                ><i class="fa-brands fa-apple"></i
+              ></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
